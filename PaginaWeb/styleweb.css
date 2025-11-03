@@ -324,6 +324,7 @@ section.projetos .flex {
   border-radius: 8px;
   position: relative;
   margin: 0px 20px 0px 10px;
+  box-shadow: 0 0 8px rgb(76, 249, 255)
 }
 
 .img-port:hover {
@@ -332,6 +333,15 @@ section.projetos .flex {
 
 .overlay:hover {
   opacity: 1;
+}
+
+.img-port2 {
+  width: 750px;
+  height: 800px;
+  border-radius: 8px;
+  position: relative;
+  margin: 0px 10px 0px 20px;
+  box-shadow: 0 0 8px rgb(76, 249, 255)
 }
 
 .portfolio h2 {
@@ -373,12 +383,11 @@ section.projetos .flex {
   flex-direction: column;
   gap: 40px;
   align-items: center;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.452);
   padding: 20px;
   border-radius: 8px;
   margin-left: 300px;
   margin-right: 300px;
-  margin-top: 40px;
+  margin-top: 130px;
   transition: 0.2s;
   transform: scale(1.05);
 }
@@ -393,6 +402,17 @@ section.projetos .flex {
   max-width: 800px;
   text-align: center;
   margin-top: 10px;
+}
+
+.project-list span {
+  color: rgb(76, 249, 255);
+}
+
+section.projetos .titulo3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
 }
 
 .img-rasp img {
@@ -588,8 +608,8 @@ footer .line-footer p a {
   }
 }
 
-  .creditos p {
-    text-align: center;
-    color: white;
-    font-size: 14px;
-  }
+.creditos p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}

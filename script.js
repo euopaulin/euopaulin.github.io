@@ -1,11 +1,3 @@
-/*
- * Arquivo de configuração para a biblioteca particles.js.
- * Este script deve ser carregado APÓS a inclusão do arquivo particles.min.js
- * no seu HTML para funcionar corretamente.
- */
-
-// ---- particles.js config ----
-
 particlesJS("particles-js", {
   "particles": {
     "number": {
