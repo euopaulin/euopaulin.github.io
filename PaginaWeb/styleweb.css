@@ -226,16 +226,16 @@ section.topo-do-site .flex {
 
 /*ESTILO DAS ESPECIALIDADES*/
 section.especialidades {
-  padding: 40px 4%;
+  padding: 200px 10%;
 }
 
 section.especialidades .flex {
-  gap: 1px;
+  gap: 25px;
 }
 
 .especialidades .especialidades-box {
   color: white;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   margin-top: 45px;
   transition: 0.2s;
@@ -254,6 +254,11 @@ section.especialidades .flex {
 .especialidades .especialidades-box h3 {
   font-size: 28px;
   margin: 15px 0;
+}
+
+.especialidades .especialidades-box p {
+  font-size: 15px;
+  line-height: 23px;
 }
 
 /*ESTILO SOBRE*/
@@ -324,7 +329,7 @@ section.projetos .flex {
   border-radius: 8px;
   position: relative;
   margin: 0px 20px 0px 10px;
-  box-shadow: 0 0 8px rgb(76, 249, 255)
+  box-shadow: 0 0 8px rgb(76, 249, 255);
 }
 
 .img-port:hover {
@@ -341,7 +346,7 @@ section.projetos .flex {
   border-radius: 8px;
   position: relative;
   margin: 0px 10px 0px 20px;
-  box-shadow: 0 0 8px rgb(76, 249, 255)
+  box-shadow: 0 0 8px rgb(76, 249, 255);
 }
 
 .portfolio h2 {
@@ -441,6 +446,7 @@ section.projetos .titulo3 {
 
 section.formulario {
   padding: 80px 4px;
+  margin: 150px 0px 0px 0px;
 }
 
 form {
@@ -470,8 +476,10 @@ form textarea {
 }
 
 form .btn-enviar {
-  margin-top: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 0px 0px;
 }
 
 form .btn-enviar input {
@@ -479,9 +487,22 @@ form .btn-enviar input {
   height: 50px;
   background-color: rgb(76, 249, 255);
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   transition: 2s;
+  align-items: center;
+  line-height: 50px;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.btn-enviar input:hover {
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 form .titulo {
@@ -582,6 +603,11 @@ footer .line-footer p a {
   }
 
   /*PORTFOLIO*/
+  .portfolio-img {
+    padding: 15px;
+    overflow: visible !important;
+  }
+
   section.portfolio {
     padding: 80px 8%;
   }
@@ -590,8 +616,25 @@ footer .line-footer p a {
     margin: 10px 0px 0px 0px;
   }
 
-  .img-port {
-    display: inline-block;
+  .img-port,
+  .img-port2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    z-index: 10;
+  }
+
+  .img-port:hover,
+  .img-port2:hover {
+    background-position: initial;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(76, 249, 255);
+  }
+
+  .img-port2 {
+    margin: 20px 0 0 0;
   }
 
   /*RODAPÉ*/
