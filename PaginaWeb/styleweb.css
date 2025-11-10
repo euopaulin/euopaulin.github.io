@@ -1,5 +1,5 @@
 /* ESTILO GERAL */
-/*@keyframes fundoAnimado {
+@keyframes fundoAnimado {
   0% {
     background-position: 0% 50%;
   }
@@ -9,13 +9,14 @@
   100% {
     background-position: 0% 50%;
   }
-}*/
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 
 body {
   animation: fundoAnimado 8s infinite;
@@ -36,7 +37,7 @@ body {
 h2.titulo {
   color: white;
   font-size: 33px;
-  text-align: center;
+  text-align: center;;
 }
 
 button:hover {

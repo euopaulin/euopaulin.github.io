@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 1. Seleciona o formulário pelo ID 'formContato'
-    const form = document.getElementById('formContato');
+    const form = document.getElementById('formulario');
 
     // Se o formulário existe, adiciona o evento de submissão
     if (form) {
