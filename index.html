@@ -1,65 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <base href="/" />
+    <base href="/">
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>meuportfph</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Paulo Henrique - Portfólio CLI</title>
+    <link rel="stylesheet" href="/PaginaCLI/stylecli.css" />
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.min.js"></script>
+    <script src="path/to/particles-config.js"></script>
   </head>
   <body>
-    <div id="particles-js"></div>
-    </div>
-    <div class="titulo">
-      <h1>Portfolio do PH</h1>
-      <img
-        src="images/pcimg.png"
-        alt="Imagem de um computador"
-        height="100px"
-      />
-    </div>
-    <div class="titulo2">
-      <p>
-        Bem-vindo ao meu portfolio!
-        <br />
-        <br />
-        Desenvolvi duas páginas web para mostrar meu portfolio, uma é uma
-        <span class="pag">página tradicional</span> e a outra é uma
-        <span class="pag">página com um visual de terminal CLI</span>.
-        <br />
-        <br />
-        Sinta-se à vontade para explorar e conhecer mais sobre minhas
-        habilidades e experiências.
-      </p>
-    </div>
-
-    <div class="escolha">
-      <div class="link1">
-        <a href="PaginaWeb/web.html" target="_self">Página Web</a>
+    <div id="terminal-container">
+      <div id="header">
+        <h1>Prompt de comando</h1>
       </div>
-      <div class="link2">
-        <a href="PaginaCLI/cli.html" target="_self">Página terminal CLI</a>
+      <div id="output">
+        Paulo Henrique - Tech Analyst.
+        <pre>
+                <br>
+                ,----------------,              ,---------,
+            ,-----------------------,          ,"        ,"|
+        ,"                      ,"|        ,"        ,"  |
+        +-----------------------+  |      ,"        ,"    |
+        |  .-----------------.  |  |     +---------+      |
+        |  |                 |  |  |     | -==----'|      |
+        |  | Seja bem-vindo, |  |  |     |         |      |
+        |  | Usuário         |  |  |     |         |      |
+        |  | C:\>_           |  |  |   ,/|==== ooo |      ;
+        |  |                 |  |  |  // |         |    ,"
+        |  `-----------------'  |," .;'| |((((     |  ,"
+        +-----------------------+  ;;  | |         |,"     
+            /_)______________(_/  //'   | +---------+
+    ___________________________/___  `,
+    /  oooooooooooooooo  .o.  oooo /,   \,"-----------
+    / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"
+    /_==__==========__==_ooo__ooo=_/'   /___________,"
+                <br>
+                </pre>
+        Digite <span class="help">'start'</span> para começar.
       </div>
+      <div id="input-line">
+        <span id="prompt">paulo@tech-<span class="line">~$</span></span>
+        <input type="text" id="command-input" autofocus />
+      </div>
+      <div class="shape square s2"></div>
     </div>
-    <footer class="creditos">
-      <p>® 2025 Paulo Henrique. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/VincentGarreau/particles.js/particles.js"></script>
-    <script src="script.js"></script>
-    </body>
+    <script src="/PaginaCLI/scriptcli.js"></script>
+  </body>
 </html>
